@@ -2,3 +2,5 @@ title: Documentação de Testes da API
 theme: minima
 plugins:
   - jekyll-feed
+repository: pmrmarcolino/primeiros_passos_teste_api
+
