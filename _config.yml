@@ -3,8 +3,6 @@ description: Guia simples para testar APIs manualmente
 author: pmrmarcolino
 
 # URL base do GitHub Pages
-url: "https://pmrmarcolino.github.io"
-baseurl: "/primeiros_passos_teste_api"
 repository: pmrmarcolino/primeiros_passos_teste_api
 
 # Tema padrão suportado pelo GitHub Pages
