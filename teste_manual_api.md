@@ -43,12 +43,15 @@ Body:
 
 ## **2. Checklist de Teste Manual**
 
-- [ ] Teste com dados válidos (happy path)  
-- [ ] Teste com dados inválidos  
-- [ ] Campos obrigatórios ausentes  
-- [ ] Teste de autenticação/autorização  
-- [ ] Teste de performance básica (tempo de resposta)  
-- [ ] Teste com diferentes usuários (perfis)  
+<h2>Checklist de Teste Manual</h2>
+<form id="checklist">
+  <label><input type="checkbox"> Teste com dados válidos (happy path)</label><br>
+  <label><input type="checkbox"> Teste com dados inválidos</label><br>
+  <label><input type="checkbox"> Campos obrigatórios ausentes</label><br>
+  <label><input type="checkbox"> Teste de autenticação/autorização</label><br>
+  <label><input type="checkbox"> Teste de performance básica (tempo de resposta)</label><br>
+  <label><input type="checkbox"> Teste com diferentes usuários (perfis)</label><br>
+</form>
 
 ---
 
