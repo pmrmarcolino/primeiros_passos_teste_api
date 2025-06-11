@@ -76,10 +76,15 @@ Body:
 Cenário: Criar usuário com dados válidos
 
 ```gherkin
-Dado criar um usuário com dados válidos  
-Quando enviar  
-  nome: Maria  
-  email: maria@ex.com  
-Então deve retornar status 201  
-E id notNull
+Funcionalidade: Cadastro de usuários
+
+  Cenário: Criar usuário com dados válidos
+    Dado que tenho acesso à API com token de autorização válido
+    E possuo os seguintes dados no corpo da requisição:
+      | nome  | email         |
+      | Maria | maria@ex.com  |
+    Quando envio uma requisição POST para o endpoint "/usuarios"
+    Então a resposta deve conter o status 201
+    E o corpo da resposta deve conter o campo "id" não nulo
+
 ```
