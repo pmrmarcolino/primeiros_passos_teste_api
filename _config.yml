@@ -1,9 +1,21 @@
-title: Documentação de Testes da API
+title: Primeiros Passos - Teste de API
+description: Guia simples para testar APIs manualmente
+author: pmrmarcolino
+
+# URL base do GitHub Pages
+url: "https://pmrmarcolino.github.io"
+baseurl: "/primeiros_passos_teste_api"
+repository: pmrmarcolino/primeiros_passos_teste_api
+
+# Tema padrão suportado pelo GitHub Pages
 theme: minima
+
+# Plugins usados pelo GitHub Pages
 plugins:
   - jekyll-feed
-url: https://pmrmarcolino.github.io
-repository: pmrmarcolino/primeiros_passos_teste_api
-baseurl: "/primeiros_passos_teste_api"
+  - jekyll-seo-tag
 
-
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
