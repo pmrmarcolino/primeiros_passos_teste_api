@@ -2,6 +2,6 @@ title: Documentação de Testes da API
 theme: minima
 plugins:
   - jekyll-feed
-url: "https://github.com/pmrmarcolino"
-repository: "/primeiros_passos_teste_api"
+url: https://github.com/pmrmarcolino
+repository: /primeiros_passos_teste_api
 
