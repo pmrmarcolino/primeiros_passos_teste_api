@@ -7,7 +7,6 @@ POST https://api.exemplo.com/usuarios
 Headers:
   Content-Type: application/json
   Authorization: Bearer token123
-
 Body:
 {
   "nome": "João",
@@ -26,16 +25,20 @@ Body:
    - `401 Unauthorized`
    - `404 Not Found`
    - `500 Internal Server Error`
+  
 2. **Validação do corpo da resposta (Response Body)**
    - Está no formato esperado? (JSON, XML)
    - Contém os campos corretos?
+  
 3. **Validação dos headers**
    - Verificar `Content-Type`, `Authorization`, etc.
-4. **Testes negativos**
+  
+5. **Testes negativos**
    - O que acontece com dados inválidos?
    - Falta de autorização?
    - Campos obrigatórios ausentes?
-5. **Testes de limites**
+  
+6. **Testes de limites**
    - Campos com tamanho máximo
    - Número máximo de registros (ex: paginação)
 
